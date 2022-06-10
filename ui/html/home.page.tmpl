@@ -4,9 +4,13 @@
 
 {{define "main"}}
 <div class="text-center"> 
-    <img src={{ .Getimage }} class="img-fluid" alt="Responsive image">
+    <img src={{ .GetImage }} class="img-fluid" alt="Responsive image">
     
 </div>
-
+<br>
+<br>
+<div class="d-grid gap-2 d-md-flex justify-content-md-center" id="buttongrp">
+    <button class="btn btn-outline-secondary" type="button" id="doggobutt" onclick="window.location.reload();">Doggo</button>
+</div>
 
 {{end}}
