@@ -4,7 +4,7 @@ A simple web app in go to retrieve random dog images.
 
 ## Prerequisite
 
-Please (install and set-up Golang)(<https://go.dev/doc/install>) on your system in advance.
+Please [install and set-up Golang](https://go.dev/doc/install) on your system in advance.
 
 ## How to run this project?
 
@@ -21,7 +21,7 @@ cd DogGo
 go build ./cmd/web
 ```
 
-3. Run the executable and open (localhost:8888)(<http://localhost:8888>) in your browser.
+3. Run the executable and open [localhost:8888](http://localhost:8888) in your browser.
 
 ```bash
 ./web
